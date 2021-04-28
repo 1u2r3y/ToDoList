@@ -14,10 +14,10 @@ import android.widget.NumberPicker;
 import android.widget.Toast;
 
 public class AddNoteActivity extends AppCompatActivity {
-    public static final String EXTRA_ID = "com.nyeroos.EXTRA_ID";
-    public static final String EXTRA_TITLE = "com.nyeroos.EXTRA_TITLE";
-    public static final String EXTRA_DESCRIPTION = "com.nyeroos.EXTRA_DESCRIPTION";
-    public static final String EXTRA_PRIORITY = "com.nyeroos.EXTRA_PRIORITY";
+    public static final String EXTRA_ID = "com.example.todolist.EXTRA_ID";
+    public static final String EXTRA_TITLE = "com.example.todolist.EXTRA_TITLE";
+    public static final String EXTRA_DESCRIPTION = "com.example.todolist.EXTRA_DESCRIPTION";
+    public static final String EXTRA_PRIORITY = "com.example.todolist.EXTRA_PRIORITY";
     private EditText editTextTitle;
     private EditText editTextDescription;
     private NumberPicker numberPickerPriority;
