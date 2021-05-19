@@ -53,8 +53,13 @@ public class AddNoteActivity extends AppCompatActivity {
         String description = editTextDescription.getText().toString();
         int priority = numberPickerPriority.getValue();
 
-        if(title.trim().isEmpty()||description.trim().isEmpty()){
+        if(title.trim().isEmpty() && description.trim().isEmpty()){
             Toast.makeText(this, "Please insert a title and description", Toast.LENGTH_SHORT).show();
+            return;
+        }
+
+        if(title.trim().isEmpty()){
+            Toast.makeText(this, "Please insert a title", Toast.LENGTH_SHORT).show();
             return;
         }
 
